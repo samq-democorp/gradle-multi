@@ -12,18 +12,18 @@ subprojects {
 
     dependencies {
         // for type inference
-        annotationProcessor 'org.projectlombok:lombok:1.18.28'
-        compileOnly 'org.projectlombok:lombok:1.18.28'
-        testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
-        testCompileOnly 'org.projectlombok:lombok:1.18.28'
+        annotationProcessor 'org.projectlombok:lombok:1.18.30'
+        compileOnly 'org.projectlombok:lombok:1.18.30'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+        testCompileOnly 'org.projectlombok:lombok:1.18.30'
         
         // for logging
-        implementation 'ch.qos.logback:logback-classic:1.2.3'
+        implementation 'ch.qos.logback:logback-classic:1.4.11'
         implementation 'org.slf4j:slf4j-api:1.7.36'
 
         implementation 'com.google.guava:guava:29.0-jre'
-        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.3'
-        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.3'
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.1'
+        testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.1'
     }
 
     repositories {
